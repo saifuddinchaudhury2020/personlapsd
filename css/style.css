@@ -1,0 +1,417 @@
+body{
+margin: 0;
+padding: 0;
+}
+html{
+scroll-behavior: smooth;
+}
+/* this is header part design start */
+#header_area{
+
+background: url(../img/banner-bg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+.navbar-light .navbar-toggler {
+	border: 2px solid #ffffff;
+	border-radius: 0;
+}
+.navbar-light .navbar-toggler-icon {
+	background-image: none;
+	color: #ffffff;
+	font-size: 36px;
+	padding: 6px 0;
+}
+.menu ul li a{
+font-size: 22px !important;
+color: #ffffff !important;
+text-transform: capitalize;
+font-weight: 500;
+}
+.banner_text{
+margin: 200px 0px;
+color: #ffffff;
+position: relative;
+}
+.banner_text::after {
+	content: '';
+	position: absolute;
+	width: 56%;
+	background-color: #98b4be;
+	height: 2px;
+	top: 19px;
+	left: 22%;
+}
+.banner_text::before {
+	content: '';
+	position: absolute;
+	width: 56%;
+	background-color: #98b4be;
+	height: 2px;
+	top: 70%;
+	left: 22%;
+}
+.banner_text h1{
+font-size: 65px;
+font-weight:900;
+font-family: 'Raleway', sans-serif;
+text-transform: capitalize;
+padding: 30px 0;
+margin: 0;
+letter-spacing: 22px;
+}
+.banner_text p{
+font-size: 30px;
+font-family: 'Raleway', sans-serif;
+margin: 0;
+}
+/* this is header part design end */
+/*about part design start */
+#about_part{
+padding: 100px 0;
+}
+.about_text h2 {
+	color: #533535;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 0;
+	padding-bottom: 30px;
+	font-family: 'Roboto', bold;
+	text-transform: capitalize;
+}
+.about_text p{
+padding-bottom: 30px;
+margin: 0;
+font-size: 18px;
+font-weight: normal;
+font-family: 'Raleway', sans-serif;
+text-align: justify;
+}
+.about_text button {
+	padding: 8px 29px;
+	background-color: #ff2b4a;
+	color: #ffffff;
+	border: none;
+	border-radius: 0;
+	text-transform: capitalize;
+	padding: ;
+	margin-top: 30px;
+}
+/*about part design end */
+/*service part design start */
+#section_part{
+background-color: #f6f6f6;
+padding: 100px 0;
+}
+.srvice_partheadeig h2{
+color: #000000;
+font-size: 40px;
+padding-bottom: 20px;
+font-family: 'Roboto', bold;
+}
+.srvice_partheadeig p{
+font-size: 16px;
+font-weight: normal;
+font-family: 'Roboto', sans-serif;
+padding-bottom:20px;
+}
+.service_content1{
+background-color:#10c6fc;
+color: #ffffff;
+text-align: center;
+padding: 70px 20px;
+}
+.service_content2{
+background-color: #835aeb;
+color: #ffffff;
+text-align: center;
+padding: 70px 20px;
+}
+.service_content3{
+background-color: #002453;
+color: #ffffff;
+text-align: center;
+padding: 70px 20px;
+}
+.service_content4{
+background-color: #ff2b4a;
+color: #ffffff;
+text-align: center;
+padding: 70px 20px;
+}
+.service_text h5 {
+	margin-top: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 5000;
+	font-weight: bold;
+}
+/*service part design end*/
+/*education part design start*/
+#education_part{
+padding: 100px 0;
+background-color: #386879;
+}
+.eductionpart_left{
+	background-color: #53647d;
+	padding: 10px 10px;
+	color: #ffffff;
+}
+.eductionpart_left h3{
+font-size: 30px;
+font-weight: bold;
+padding: 20px 0;
+font-family: 'Roboto', bold;
+text-transform: uppercase;
+}
+.eductionpart_left h4{
+		font-size: 18px;
+		font-weight: 550;
+		padding: 10px 0;
+		font-family: 'Roboto', bold;
+		text-transform: capitalize;
+}
+.eductionpart_left h5{
+	font-size: 16px;
+	font-weight: normal;
+	padding: 5px 0;
+	text-transform: capitalize;
+	font-family: 'Roboto', bold;
+}
+	.eductionpart_left p{
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		font-weight: normal;
+		padding: 10px 0;
+	}
+	.her_line hr {
+		border: none;
+		border-bottom: 2px soid gray;
+		border-bottom: 2px solid;
+	}
+	.eductionpart_right{
+		background-color: #53647d;
+	padding: 10px 10px;
+	color: #ffffff;
+	}
+	.eductionpart_right h3{
+		font-size: 30px;
+font-weight: bold;
+padding: 20px 0;
+font-family: 'Roboto', bold;
+text-transform: uppercase;
+	}
+	.eductionpart_right h4{
+		font-size: 18px;
+		font-weight: 550;
+		padding: 10px 0;
+		font-family: 'Roboto', bold;
+		text-transform: capitalize;
+	}
+	.eductionpart_right h5{
+		font-size: 16px;
+		font-weight: normal;
+		padding: 5px 0;
+		text-transform: capitalize;
+		font-family: 'Roboto', bold;
+	}
+	.eductionpart_right p{
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		font-weight: normal;
+		padding: 10px 0;
+	}
+/*education part design end*/
+/*edacuton part design start*/
+#protfolio_part{
+	padding: 100px 0;
+}
+.protfolio_header h2{
+	color: #000000;
+	font-size: 50px;
+	padding-bottom: 20px;
+	font-family: 'Roboto', bold;
+	text-transform: capitalize;
+}
+.protfolio_header p{
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom:20px;
+}
+.protfolio_content{
+padding: 20px 0;
+}
+.protfoli_1{
+padding: 10px 10px;
+}
+/*edacuton part design end*/
+/*testimonila part design start*/
+#testimonilal_part{
+padding: 100px 0px;
+background-color: #64cbc0;
+}
+.testimonila_icon {
+	padding: 20px 0;
+}
+.testimonila_text p{
+font-size: 18px;
+font-weight: normal;
+font-family: 'Raleway', regular;
+padding: 20px 0px;
+}
+.testimonila_sign{
+padding-top: 120px;
+}
+.testimonila_sign h5{
+	color: #295a55;
+	font-weight: 500;
+	font-family: 'Roboto', bold;
+	text-transform: capitalize;
+padding-top: 40px;
+margin: 0;
+}
+.testimonila_signp p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	text-transform: capitalize;
+	color:#295a55;
+}
+.slide_image img{
+width: 95%;
+}
+/*testimonila part design end*/
+/*contract part desing strat*/
+#contrat_part{
+padding: 100px 0;
+color: #ffffff;
+background-color: #2f6879;
+}
+.contractpart_left{
+background-color: #4d637d;
+padding: 75px 20px;
+}
+.contractpart_left h2{
+font-weight: 500;
+font-family: 'Roboto', bold;
+text-transform: uppercase;
+text-align: inherit;
+margin-bottom: 30px;
+}
+.form-group input,
+.form-group textarea{
+background: transparent;
+border: 2px solid gray;
+cursor: pointer;
+}
+.custom-button {
+	padding: 8px 29px;
+	background-color: #ff2b4a;
+	color: #ffffff;
+	border: none;
+	border-radius: 0;
+	text-transform: capitalize;
+	padding: ;
+float: right;
+box-sizing: border-box;
+}
+.addres_part{
+background-color: #66657d;
+padding: 40px 22px;
+margin-bottom: 12px;
+font-family: 'Raleway', sans-serif;
+}
+.addres_part h2{
+	font-weight: 500;
+	font-family: 'Roboto', bold;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+.phonenubmer_part{
+	background-color: #66657d;
+	padding: 40px 22px;
+	margin-bottom: 12px;
+	font-family: 'Raleway', sans-serif;
+}
+.phonenubmer_part h2{
+	font-weight: 500;
+	font-family: 'Roboto', bold;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+.web_part{
+	background-color: #66657d;
+	padding: 40px 22px;
+	margin-bottom: 12px;
+	font-family: 'Raleway', sans-serif;
+}
+.web_part h2{
+	font-weight: 500;
+	font-family: 'Roboto', bold;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+/*contract part desing end*/
+/*footer part designstart */
+#footer_area{
+padding: 50px 0;
+background-color: #222222;
+color: #ffffff;
+}
+.footer_content ul li{
+	padding: 5px 10px;
+	border-right: 2px solid gray;
+}
+.footer_content ul li:last-child{
+border-right: none;
+}
+.footer_content ul li a{
+font-size: 22px;
+color: #ffffff;
+cursor: pointer;
+}
+.footer_content ul li a:hover{
+	color: #ff2b4a;
+}
+.footer_content ul li a.active{
+color: #ff2b4a;
+}
+.footer_content p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+
+.carousel-indicators li{
+background-color: transparent;
+
+
+}
+
+.bg_nav{
+
+background: black;
+z-index: 90;
+
+
+
+}
+
+
+
+
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+
+}
+
+
+/*footer part designstarend*/
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */

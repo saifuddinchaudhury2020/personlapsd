@@ -1,0 +1,604 @@
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	#header_area {
+
+		height: 35vh;
+	}
+/*banner part responsive start */
+.banner_text {
+	margin: 150px 0px;
+
+}
+
+.banner_text h1 {
+	font-size: 32px;
+	font-weight: 788;
+	padding: 15px 0;
+	letter-spacing: 15px;
+}
+
+.banner_text p {
+	font-size: 16px;
+}
+
+.banner_text {
+	margin: 145px 0px;
+}
+.banner_text::after {
+
+	width: 65%;
+
+	left: 16%;
+}
+
+.banner_text::before {
+	width: 65%;
+	left: 17%;
+}
+
+/*abourt part responsive design start */
+#about_part {
+	padding: 50px 0;
+}
+
+.about_text h2 {
+	font-size: 15px;
+	font-weight: 700;
+	margin: 0;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.about_text button {
+
+	width: 100%;
+}
+
+
+.about_text p {
+	padding-bottom: 20px;
+	font-size: 10px;
+}
+/*service part responsive design */
+.service_text h5 {
+	margin-top: 30px;
+	font-size: 15px;
+
+}
+#section_part {
+	background-color: #f6f6f6;
+	padding: 50px 0;
+}
+.srvice_partheadeig h2 {
+
+	font-size: 30px;
+	margin: 0;
+
+}
+.srvice_partheadeig p {
+	font-size: 11px;
+
+	padding-bottom: 10px;
+}
+
+.service_text h5 {
+	margin-top: 25px;
+	font-size: 12px;
+}
+/*educaton part responsive design start */
+#education_part {
+	padding: 50px 0;
+
+}
+.eductionpart_left h3 {
+	font-size: 22px;
+	padding: 8px 0;
+
+}
+
+.eductionpart_left h4 {
+	font-size: 16px;
+	padding: 5px 0;
+
+}
+.eductionpart_left p {
+	font-size: 12px;
+	padding: 5px 0;
+}
+
+.eductionpart_right {
+	background-color: #53647d;
+	padding: 10px 10px;
+	color: #ffffff;
+	margin-top: 30px;
+}
+.eductionpart_right h3{
+	font-size: 22px;
+	padding: 8px 0;
+
+}
+.eductionpart_right h4{
+	font-size: 16px;
+	padding: 5px 0;
+
+}
+.eductionpart_right p{
+
+	font-size: 12px;
+	padding: 5px 0;
+
+}
+
+
+
+/*protfolio part responsive start */
+#protfolio_part {
+	padding: 50px 0;
+}
+
+.protfolio_header h2 {
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+
+.protfolio_header p {
+	font-size: 10px;
+
+}
+
+/*testimonilal part responsive design start */
+#testimonilal_part {
+	padding: 50px 0px;
+
+}
+
+.protfolio_header h2 {
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+.testimonila_text p {
+	font-size: 15px;
+
+}
+.testimonila_sign {
+	padding-top: 30px;
+}
+.testimonila_sign {
+	padding-top: 30px;
+}
+
+/*contract part responsive start */
+#contrat_part {
+	padding: 50px 0;
+
+}
+
+.contractpart_left h2 {
+	margin-bottom: 25px;
+	font-size: 22px;
+}
+
+.list-inline li{
+font-size: 9px !important;
+
+
+}
+.addres_part h2 {
+
+	font-size: 22px;
+}
+
+.custom-button{
+
+width: 100%;
+
+}
+
+.web_part{
+
+text-align: center;
+
+}
+.phonenubmer_part{
+text-align: center;
+
+}
+
+.addres_part{
+
+text-align: center;
+
+}
+
+
+.web_part h2 {
+	font-weight: 500;
+	font-size: 22px;
+	text-align: ;
+
+}
+
+.phonenubmer_part h2 {
+	font-weight: 500;
+	font-family: 'Roboto', bold;
+	text-transform: uppercase;
+	padding: 35px 0;
+	font-size: 22px;
+}
+
+.footer_content p {
+
+	font-size: 12px;
+
+}
+/*end of 575px responsive design*/
+
+
+
+
+
+
+
+
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	#header_area {
+
+		height: 35vh;
+	}
+/*banner part responsive start */
+.banner_text {
+	margin: 150px 0px;
+
+}
+
+.banner_text h1 {
+	font-size: 32px;
+	font-weight: 788;
+	padding: 15px 0;
+	letter-spacing: 15px;
+}
+
+.banner_text p {
+	font-size: 16px;
+}
+
+.banner_text {
+	margin: 145px 0px;
+}
+.banner_text::after {
+
+	width: 65%;
+
+	left: 16%;
+}
+
+.banner_text::before {
+	width: 65%;
+	left: 17%;
+}
+
+/*abourt part responsive design start */
+#about_part {
+	padding: 50px 0;
+}
+
+.about_text h2 {
+	font-size: 9px;
+	font-weight: 700;
+	margin: 0;
+	padding-bottom: 15px;
+}
+.about_text p {
+	padding-bottom: 20px;
+	font-size: 10px;
+}
+/*service part responsive design */
+.service_text h5 {
+	margin-top: 30px;
+	font-size: 15px;
+
+}
+#section_part {
+	background-color: #f6f6f6;
+	padding: 50px 0;
+}
+.srvice_partheadeig h2 {
+
+	font-size: 30px;
+	margin: 0;
+
+}
+.srvice_partheadeig p {
+	font-size: 11px;
+
+	padding-bottom: 10px;
+}
+
+.service_text h5 {
+	margin-top: 25px;
+	font-size: 12px;
+}
+/*educaton part responsive design start */
+#education_part {
+	padding: 50px 0;
+
+}
+.eductionpart_left h3 {
+	font-size: 22px;
+	padding: 8px 0;
+
+}
+
+.eductionpart_left h4 {
+	font-size: 16px;
+	padding: 5px 0;
+
+}
+.eductionpart_left p {
+	font-size: 12px;
+	padding: 5px 0;
+}
+
+.eductionpart_right h3{
+	font-size: 22px;
+	padding: 8px 0;
+
+}
+.eductionpart_right h4{
+	font-size: 16px;
+	padding: 5px 0;
+
+}
+.eductionpart_right p{
+
+	font-size: 12px;
+	padding: 5px 0;
+
+}
+
+
+
+/*protfolio part responsive start */
+#protfolio_part {
+	padding: 50px 0;
+}
+
+.protfolio_header h2 {
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+.protfolio_header p {
+	font-size: 10px;
+
+}
+
+/*testimonilal part responsive design start */
+#testimonilal_part {
+	padding: 50px 0px;
+
+}
+
+.protfolio_header h2 {
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+.testimonila_text p {
+	font-size: 15px;
+
+}
+.testimonila_sign {
+	padding-top: 30px;
+}
+.testimonila_sign {
+	padding-top: 30px;
+}
+
+/*contract part responsive start */
+#contrat_part {
+	padding: 50px 0;
+
+}
+
+.contractpart_left h2 {
+	margin-bottom: 25px;
+	font-size: 22px;
+}
+
+.list-inline li{
+font-size: 9px !important;
+
+
+}
+.addres_part h2 {
+
+	font-size: 22px;
+}
+
+.web_part h2 {
+	font-weight: 500;
+	font-size: 22px;
+
+}
+
+.phonenubmer_part h2 {
+	font-weight: 500;
+	font-family: 'Roboto', bold;
+	text-transform: uppercase;
+	padding: 35px 0;
+	font-size: 22px;
+}
+
+.footer_content p {
+
+	font-size: 12px;
+
+}
+/*end of 576px responsive design*/
+
+
+
+
+
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	#header_area {
+
+		height: 42vh;
+	}
+/*banner part responsive start */
+.banner_text {
+	margin: 150px 0px;
+
+}
+
+.banner_text h1 {
+	font-size: 50px;
+	font-weight: 788;
+
+	padding: 20px 0;
+
+	letter-spacing: 17px;
+}
+
+
+.banner_text p {
+	font-size: 21px;
+
+}
+
+.banner_text::after {
+
+	width: 65%;
+
+	left: 16%;
+}
+
+.banner_text::before {
+	width: 65%;
+	left: 17%;
+}
+
+/*abourt part responsive design start */
+#about_part {
+	padding: 70px 0;
+}
+
+
+.about_text h2 {
+
+	font-size: 13px;
+	font-weight: 700;
+	margin: 0;
+	padding-bottom: 20px;
+
+}
+.about_text p {
+	padding-bottom: 20px;
+
+	font-size: 13px;
+
+}
+/*service part responsive design */
+.service_text h5 {
+	margin-top: 30px;
+	font-size: 15px;
+
+}
+
+#section_part {
+	background-color: #f6f6f6;
+	padding: 70px 0;
+}
+
+
+/*educaton part responsive design start */
+#education_part {
+	padding: 70px 0;
+
+}
+
+/*protfolio part responsive start */
+#protfolio_part {
+	padding: 70px 0;
+}
+
+.protfolio_header h2 {
+
+	font-size: 40px;
+	padding-bottom: 10px;
+
+}
+.protfolio_header p {
+	font-size: 13px;
+
+}
+
+/*testimonilal part responsive design start */
+#testimonilal_part {
+	padding: 70px 0px;
+
+}
+.testimonila_text p {
+	font-size: 15px;
+
+}
+.testimonila_sign {
+	padding-top: 50px;
+}
+.testimonila_sign h5 {
+	padding-top: 30px;
+
+}
+/*contract part responsive start */
+#contrat_part {
+	padding: 70px 0;
+
+}
+
+.phonenubmer_part h2 {
+	font-weight: 400;
+	padding: 0;
+}
+
+.list-inline li{
+font-size: 9px !important;
+
+
+}
+
+.web_part h2 {
+	font-weight: 500;
+font-size: 25px;
+	padding: 46px 0;
+}
+
+/*end of 768px responsive design*/
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	#header_area {
+
+		height: 55vh;
+	}
+
+
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+
+
